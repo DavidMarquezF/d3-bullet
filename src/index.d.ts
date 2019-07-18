@@ -10,7 +10,6 @@
  */
 
 /*~ On this line, import the module which this module adds to */
-import * as d3 from 'd3';
 import { Selection, namespace } from 'd3';
 
 /*~ Here, declare the same module as the one you imported above */
