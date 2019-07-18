@@ -1,5 +1,5 @@
 {
-  "name": "d3-bullet",
+  "name": "@david_marquez_f/d3-bullet",
   "version": "1.0.0",
   "description": "D3 bullet",
   "main": "src/index.js",
@@ -20,5 +20,6 @@
   "homepage": "https://github.com/DavidMarquezF/d3-bullet#readme",
   "devDependencies": {
     "typescript": "^3.5.3"
-  }
+  },
+  "private": false
 }
