@@ -1,0 +1,23 @@
+{
+  "name": "d3-bullet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidMarquezF/d3-bullet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidMarquezF/d3-bullet/issues"
+  },
+  "homepage": "https://github.com/DavidMarquezF/d3-bullet#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
