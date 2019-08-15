@@ -1,9 +1,9 @@
 {
   "name": "@david_marquez_f/d3-bullet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "D3 bullet",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc"
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/DavidMarquezF/d3-bullet.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "David Márquez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DavidMarquezF/d3-bullet/issues"
