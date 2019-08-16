@@ -167,14 +167,14 @@ export function bullet() {
     bulvar.duration = function(_) {
         if (!arguments.length) return _duration;
         duration = _;
-        return bulletAgr;
+        return bulvar;
     };
 
     //Custom functions created to add flexibility
      bulvar.showTicks = function(_) {
         if (!arguments.length) return _showTicks;
         showTicks = _;
-        return bulletAgr;
+        return bulvar;
     }
 
     return bulvar;
