@@ -9,6 +9,8 @@ export function bullet() {
     var orient = "left",
         reverse = false,
         vertical = false,
+        showTicks = false,
+        duration = 0,
         ranges = bulvarRanges,
         markers = bulvarMarkers,
         measures = bulvarMeasures,
@@ -65,6 +67,7 @@ export function bullet() {
                 .attr("x", reverse ? x0 : 0)
                 .merge(range)
                 .transition(range)
+                .duration(duration)
                 .attr("x", reverse ? x1 : 0)
                 .attr("width", w1)
                 .attr("height", extentY);
@@ -81,6 +84,7 @@ export function bullet() {
                 .attr("y", extentY / 3)
                 .merge(measure)
                 .transition(measure)
+                .duration(duration)
                 .attr("width", w1)
                 .attr("height", extentY / 3)
                 .attr("x", reverse ? x1 : 0)
@@ -98,6 +102,7 @@ export function bullet() {
                 .attr("y2", extentY * 5 / 6)
                 .merge(marker)
                 .transition(marker)
+                .duration(duration)
                 .attr("x1", x1)
                 .attr("x2", x1)
                 .attr("y1", extentY / 6)
@@ -159,7 +164,18 @@ export function bullet() {
         return bulvar;
     };
 
-  
+    bulvar.duration = function(_) {
+        if (!arguments.length) return _duration;
+        duration = _;
+        return bulletAgr;
+    };
+
+    //Custom functions created to add flexibility
+     bulvar.showTicks = function(_) {
+        if (!arguments.length) return _showTicks;
+        showTicks = _;
+        return bulletAgr;
+    }
 
     return bulvar;
 }

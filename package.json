@@ -1,6 +1,6 @@
 {
   "name": "@david_marquez_f/d3-bullet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "D3 bullet",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
